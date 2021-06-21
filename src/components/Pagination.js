@@ -31,21 +31,8 @@ const Pagination = ({showPerPage, onPaginationChange, total}) => {
 
     return (
         <>
-         <div className='d-flex justify-content-center'>
-         
-{/* 
-         <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <li class="page-item"><a class="page-link"  onClick={()=> onButtonClick('prev')}>Previous</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" onClick={()=> onButtonClick('next')}>Next</a></li>
-            </ul>
-            </nav>
- */}
-                    
- 
+         <div className='d-flex justify-content-between'>
+
             <Button className="btn btn-primary"
              onClick={()=> onButtonClick('prev')}
             >Privious</Button>
